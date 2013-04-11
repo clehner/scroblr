@@ -30,7 +30,9 @@
 				"http://*.thisismyjam.com/*",
 				"http://*.turntable.fm/*",
 				"https://*.turntable.fm/*",
-				"http://*.twonky.com/*"
+				"http://*.twonky.com/*",
+				"http://*.ex.fm/*",
+				"https://*.ex.fm/*"
 			],
 			"js": [
 				"js/lib/jquery-1.8.0.min.js",

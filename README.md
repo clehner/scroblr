@@ -19,6 +19,7 @@ scroblr is a lightweight browser extension that scrobbles the music you listen t
 - Rhapsody
 - Twonky
 - we7
+- exfm
 
 ##What's "scrobbling?"
 

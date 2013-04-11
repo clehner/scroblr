@@ -149,6 +149,16 @@
 		<string>CheckBox</string>
 	</dict>
 	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>enable_exfm</string>
+		<key>Title</key>
+		<string>exfm</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
 		<key>Title</key>
 		<string>Notification Settings</string>
 		<key>Type</key>

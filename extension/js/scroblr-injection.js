@@ -284,6 +284,15 @@ if (!isJango || isJangoPlayer) {
 							duration: calculateDuration($('#elapsed').text(), $('#remaining').text()),
 							elapsed: calculateDuration($('#elapsed').text())
 						};
+					},
+
+					exfm: function () {
+						return {
+							artist: $('#display_artist').text(),
+							name: $('#display_song').text(),
+							duration: calculateDuration($('#display_time_total').text()),
+							elapsed: calculateDuration($('#display_time_count').text())
+						};
 					}
 
 				};
@@ -361,6 +370,11 @@ if (!isJango || isJangoPlayer) {
 			else if (hostname.indexOf('we7') >= 0) {
 				if ($('#player-section').length) {
 					host = 'we7';
+				}
+			}
+			else if (hostname.indexOf('ex.fm') >= 0) {
+				if ($('.display_song_container').length) {
+					host = 'exfm';
 				}
 			}
 			return host;

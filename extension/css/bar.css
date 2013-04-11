@@ -63,7 +63,8 @@ section {
 		#nowPlaying.thisismyjam,
 		#nowPlaying.turntable,
 		#nowPlaying.twonky,
-		#nowPlaying.we7 {
+		#nowPlaying.we7,
+		#nowPlaying.exfm {
 			background: transparent url(../img/icons/pandora.png) no-repeat 0 7px;
 			padding-left: 20px;
 			}
@@ -124,6 +125,10 @@ section {
 			background-image: url(../img/icons/we7.png);
 			}
 
+		#nowPlaying.exfm {
+			background-image: url(../img/icons/exfm.png);
+			}
+
 		#hostControls .accuradio,
 		#hostControls .amazon,
 		#hostControls .bandcamp,
@@ -134,6 +139,7 @@ section {
 		#hostControls .turntable,
 		#hostControls .twonky,
 		#hostControls .we7,
+		#hostControls .exfm,
 		#hostControls .loveTrack {
 			display: none;
 			}

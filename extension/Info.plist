@@ -93,6 +93,7 @@
           <string>*.turntable.fm</string>
           <string>*.twonky.com</string>
           <string>*.we7.com</string>
+          <string>*.ex.fm</string>
         </array>
         <key>Include Secure Pages</key>
         <true/>
